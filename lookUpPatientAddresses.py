@@ -58,7 +58,7 @@ def main():
               COLUMN_TITLE : '' if details['title'] is None else details['title'].title(),
               COLUMN_LAST_NAME : '' if details['last_name'] is None else details['last_name'].title(),
               COLUMN_FIRST_NAME : '' if details['first_name'] is None else details['first_name'].title(),
-              COLUMN_DOB : '' if details['dob'] is None else details['dob'],
+              COLUMN_DOB : '' if details['dob'] is None else details['dob'].strftime('%Y-%m-%d'),
               COLUMN_GENDER : '' if details['gender'] is None else details['gender'],
               COLUMN_ADDRESS_1 : '' if details['pat_addr1'] is None else details['pat_addr1'].title(),
               COLUMN_ADDRESS_2 : '' if details['pat_addr2'] is None else details['pat_addr2'].title(),

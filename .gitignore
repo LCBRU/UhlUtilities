@@ -58,3 +58,8 @@ target/
 
 # Virtual Environment
 venv
+
+# Ignore private files that i don't wont uploading to git hub
+Data/
+dbSettings.*
+
